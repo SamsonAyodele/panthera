@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.navigation {
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+} 
+
+img {
+    cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+#first-container {
+    margin-top: 100px;
+    background-color: aqua;
+    
+}
+
+#second-container {
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+}
+
+#third-container {
+    background-color: bisque;
+    position: relative;
+    top: 80px;
+}
+
+#fourth-container {
+    background-color: palegreen;
+    position: relative;
+    top: -80px;
+}
+
+#fifth-container {
+    background-color: chocolate;
+    position: relative;
+    top: -250px;
+}
+
+.parent-sixth-container {
+    background-color: chartreuse;
+    height: 200px;
+    position: relative;
+}
+
+#sixth-container {
+    background-color: darkblue;
+    position: absolute;
+    top: 0;
+}
+
+.absolute-positioning {
+    padding: 10px;
+    margin: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 20vw;
+    height: 5vh;
+    position: relative;
+}
+
+span {
+    color: red;
+    position: absolute;
+    left: 395px;
+    
+}
+
+

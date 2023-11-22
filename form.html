@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>My form</h1>
+        <div>
+          <label for="username">Enter username:</label>
+          <input
+            type="text"
+            id="text"
+            name="username"
+            placeholder="username"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Enter email:</label>
+          <input 
+            type="email" 
+            id="text" 
+            name="email" 
+            placeholder="gmail" 
+            required
+         />
+        </div>
+
+        <div>
+          <label for="password">Enter password:</label>
+          <input
+            type="password"
+            id="text"
+            name="password"
+            placeholder="enter password"
+            required
+          />
+        </div>
+
+        <div>
+          <p>Select your age:</p>
+
+          <input type="radio" name="age" value="0-25" id="option-1" />
+          <label for="option-1">0-25</label><br />
+          <input type="radio" name="age" value="26-50" id="option-2" />
+          <label for="option-2">26-50</label><br />
+          <input type="radio" name="age" value="51-75" id="option-3" />
+          <label for="option-3">51-75</label><br />
+          <input type="radio" name="age" value="75-100" id="option-4" />
+          <label for="option-4">75-100</label><br />
+        </div>
+
+        <div>
+          <label for="question">security question:</label>
+          <select name="question" id="text">
+            <option value="q1">Do you like football ?</option>
+            <option value="q2">Do you like graphics ?</option>
+            <option value="q3">Do you like me ?</option>
+            <option value="q4">Do you do drugs ?</option>
+            <option value="q5">Do you like to code ?</option>
+          </select>
+
+          <div class="question">
+            <label for="answer">Security question answer:</label>
+            <input type="text" id="text" name="answer" />
+          </div>
+        </div>
+
+        <div>
+          <label for="bio">Your Bio...:</label><br />
+          <textarea
+            name="bio"
+            id="bio"
+            cols="30"
+            rows="10"
+            placeholder="about you..."
+          ></textarea>
+        </div>
+
+        <div>
+          <button type="submit" class="submit"> Submit </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
