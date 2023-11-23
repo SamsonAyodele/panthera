@@ -95,8 +95,9 @@ a:hover {
 }
 
 .absolute-positioning {
-    padding: 10px;
+    /* padding: 10px; */
     margin: 20px;
+    
 }
 
 input {
@@ -107,9 +108,10 @@ input {
 }
 
 span {
-    color: red;
+    cursor: pointer;
+    color: rgb(32, 3, 3);
     position: absolute;
-    left: 395px;
+    /* left: 395px; */
     
 }
 
