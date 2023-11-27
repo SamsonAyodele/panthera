@@ -18,17 +18,16 @@ span {
 
 
 /* FLEX STYLE */
-.container1 {
+.container-flex {
     padding: 10px;
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
-    
+    flex-flow: row wrap;  /* flex flow is a shorthand property for direction and wrap */
 }
 
 .flex-1 {
     margin-bottom: 10px;
-    border: 2px solid #ffff00;
+    /* border: 2px solid #ffff00; */
     padding: 10px;
     /* width: 100%;   */
     /* height: 600px;  */
@@ -38,22 +37,36 @@ span {
     /* height: max-content;  */
 }
 
-#first-flex {
+#first-flex,#first-grid {
     border: 3px solid cyan;
 }
 
-#second-flex {
+#second-flex,#second-grid {
     border: 3px solid palegreen;
 }
 
-#third-flex {
+#third-flex,#third-grid {
     border: 3px solid gold;
 }
 
-#fourth-flex {
+#fourth-flex,#fourth-grid {
     border: 3px solid magenta;
 }
 
-#fifth-flex {
+#fifth-flex,#fifth-grid {
     border: 3px solid palegreen;
+}
+
+/* grid */
+
+.container-grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-1 {
+    padding: 10px;
+    border-radius: 10px;
 }
