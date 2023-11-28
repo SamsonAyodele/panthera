@@ -74,13 +74,13 @@ p {
 }
 
 #img1 {
-  background-image: url(images1.jfif);
+  background-image: url(./images1.jfif);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #img2 {
-  background-image: url(images2.jfif);
+  background-image: url(./images2.jfif);
   background-repeat: no-repeat;
   background-size: cover;
 }
