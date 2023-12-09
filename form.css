@@ -4,8 +4,8 @@
   padding: 0;
 }
 .container {
-  background-image: url("pixel3.JPG");
-  /* background-image: linear-gradient(#ff0000, #00ff00, #00ffff); */
+  /* background-image: url("pixel3.JPG"); */
+  background-image: linear-gradient(#ff0000, #00ff00, #00ffff);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
