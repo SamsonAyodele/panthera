@@ -12,10 +12,10 @@ function changeContent() {
 }
 
 let change = document.getElementById("show");
-let change2 = document.getElementByTagName("body");
+let changeTwo = document.getElementById("body");
 
 function displayText() {
   change.innerHTML = "You just clicked the button";
   change.style.color = "white";
-  change.style.backgroundColor = 'blue'
+  changeTwo.style.backgroundColor = 'blue';
 }
